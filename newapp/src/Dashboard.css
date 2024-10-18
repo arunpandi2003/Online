@@ -1,0 +1,69 @@
+/* reset */
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.dashboard-container {
+  width: 100%;
+  height: 100vh;
+}
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 255, 0.836);
+  padding: 1rem;
+  color: white;
+}
+
+.dashboard-header nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.dashboard-header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.dashboard-card {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.dashboard-card h2 {
+  margin-bottom: 1rem;
+}
+
+.dashboard-card p {
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-card button {
+  background-color: rgba(0, 0, 255, 0.836);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dashboard-card button:hover {
+  background-color: rgba(0, 0, 255, 0.836);
+}

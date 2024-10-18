@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.question-page{
+    height: auto;
+    width: 100vw;
+    background-color: gray;
+    padding: 15px;
+}
+.question-div{
+    border: 2px solid white;
+    width: 99.9%;
+    height: 99.9%;
+    padding: 10px;
+}
+li p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+ul{
+    margin-left: 500px;
+    border: 2px solid black;
+    padding-left: 20px;
+}
+
+
+.check{
+    display: inline;
+}
+.check[type="radio"]:checked + label{
+    color: green;
+}
+
+.btn{
+    margin-left: 400px;
+    margin-bottom: 10px;
+}

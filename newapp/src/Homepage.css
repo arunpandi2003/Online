@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+body {
+  background-color: lightcyan;
+  background-size: contain;
+}
+.Homepage {
+  height: 100vh;
+}
+.navbar {
+  background-color: lightgray;
+  padding: 1.5rem;
+}
+.logo {
+  font-size: 1.5rem;
+  color: white;
+}
+.content {
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+  margin-left: 50%;
+}
+.content > h1 {
+  font-size: 5rem;
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.content h3 {
+  color: aliceblue;
+  font-size: 1.5rem;
+}
+.content h3 span {
+  color: black;
+  font-size: 1.5rem;
+}
+.button button {
+  padding: 10px;
+  font-size: large;
+  background-color: rgba(0, 0, 255, 0.836);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0 0 65%;
+  width: 6rem;
+}
+.button button:hover {
+  background-color: blue;
+}

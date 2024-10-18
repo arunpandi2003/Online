@@ -1,0 +1,53 @@
+/* reset */
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.register {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-image: url(./Assests/Fingerprint-cuate\ \(1\).png);
+  background-size: 50%;
+  background-position: right;
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+}
+.register-form {
+  padding: 30px;
+  margin-right: 10rem;
+  background: none;
+  box-shadow: 1px 1px 10px gray;
+}
+.form-group {
+  padding: 10px;
+}
+input {
+  display: block;
+  padding: 10px;
+  margin: 10px 10px 10px 0;
+}
+#check {
+  display: inline;
+}
+label {
+  font-size: large;
+  margin: 10px 0 10px 0;
+}
+.btn {
+  padding: 10px;
+  font-size: large;
+  background-color: rgba(0, 0, 255, 0.836);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0 0 4rem;
+}
+.btn:hover {
+  background-color: blue;
+}
